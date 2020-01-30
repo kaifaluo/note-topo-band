@@ -94,7 +94,7 @@ end
 load('output\BerryPhase.mat');
 
 subplot(2,2,4)
-plot([1:nk],BerryPhase,'r','linewidth',2); hold on;
+plot([1:nk],BerryPhase,'r','linewidth',1.5); hold on;
 
 ylabel('Berry Phase');
 set(gca,'box','on','linewidth',1.2,'Fontname','Times New Roman','Fontsize',fs, ...
@@ -102,6 +102,7 @@ set(gca,'box','on','linewidth',1.2,'Fontname','Times New Roman','Fontsize',fs, .
         'ytick',[0 pi 2*pi],'yticklabel',{'0','\pi','2\pi'}');
 axis([0,nk,0,2*pi]);axis square
 grid on
+
 %text(nk_label(end)*0.05,2*pi-(2*pi/10),'(d)');
 
 %print('output\example', '-dpng', '-r350'); %<-Save as PNG with 350 DPI
