@@ -1,5 +1,6 @@
-clear all;
-clc;
+clear all;clc;
+
+addpath(genpath(pwd));
 
 sz_H = 2;
 nkx = 1000;
@@ -9,12 +10,11 @@ nkx = 1000;
 fs=14;
 lw=1.2;
 
-clf
-fig=figure(1)
+clf; fig = figure(1)
 
 scatter([1:nkx],BP,5,'r'); hold on;
 
-axis([1 nkx -pi pi]);
+axis([1,nkx,-pi,pi]);
 ylabel('$\phi(k_x)$','interpreter','latex','fontsize',fs);
 xlabel('$k_x$','interpreter','latex','fontsize',fs);
 set(gca,'box','on','fontsize',fs,'linewidth',lw, ...

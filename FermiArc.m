@@ -1,4 +1,5 @@
 clc;clear all
+addpath(genpath(pwd));
 
 nk = 200;
 
