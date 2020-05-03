@@ -1,0 +1,320 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\options 1
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.5cm
+\topmargin 1cm
+\rightmargin 0.5cm
+\bottommargin 1.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+NOTE
+\end_layout
+
+\begin_layout Standard
+basis : 
+\begin_inset Formula $g_{1}=px$
+\end_inset
+
+, 
+\begin_inset Formula $g_{2}=py$
+\end_inset
+
+, 
+\begin_inset Formula $g_{3}=pz$
+\end_inset
+
+, 
+\begin_inset Formula $g_{4}=dxy$
+\end_inset
+
+, 
+\begin_inset Formula $g_{5}=dyz$
+\end_inset
+
+, 
+\begin_inset Formula $g_{6}=dzx$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H(k)=\left[\begin{array}{cccccc}
+H_{x,x} & 0 & 0 & H_{x,xy} & 0 & H_{x,zx}\\
+ & H_{y,y} & 0 & H_{y,xy} & H_{y,yz} & 0\\
+ &  & H_{z,z} & 0 & H_{pz,dyz} & H_{z,zx}\\
+ &  &  & H_{xy,xy} & 0 & 0\\
+ & \mbox{\dagger} &  &  & H_{yz,yz} & 0\\
+ &  &  &  &  & H_{zx,zx}
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H_{x,x}=E_{p}+2cosk_{x}aV_{pp\sigma}+2cosk_{y}aV_{pp\pi}+2cosk_{z}aV_{pp\pi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H_{x,xy}=2isink_{y}aV_{pd\pi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H_{x,zx}=2isink_{z}aV_{pd\pi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H_{y,y}=E_{p}+2cosk_{x}aV_{pp\pi}+2cosk_{y}aV_{pp\sigma}+2cosk_{z}aV_{pp\pi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H_{y,xy}=2isink_{x}aV_{pd\pi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H_{y,yz}=2isink_{z}aV_{pd\pi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H_{z,z}=E_{p}+2cosk_{x}aV_{pp\pi}+2cosk_{y}aV_{pp\pi}+2cosk_{z}aV_{pp\sigma}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H_{z,yz}=2isink_{y}aV_{pd\pi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H_{z,zx}=2isink_{x}aV_{pd\pi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H_{xy,xy}=E_{d}+2cosk_{x}aV_{dd\pi}+2cosk_{y}aV_{dd\pi}+2cosk_{z}aV_{dd\delta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H_{yz,yz}=E_{d}+2cosk_{x}aV_{dd\delta}+2cosk_{y}aV_{dd\pi}+2cosk_{z}aV_{dd\pi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H_{zx,zx}=E_{d}+2cosk_{x}aV_{dd\pi}+2cosk_{y}aV_{dd\delta}+2cosk_{z}aV_{dd\pi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename TB_6x6/untitled.pdf
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+TB band with paras: 
+\begin_inset Formula $E_{d}=0.28281$
+\end_inset
+
+, 
+\begin_inset Formula $E_{p}=-0.10147$
+\end_inset
+
+, 
+\begin_inset Formula $V_{pp\sigma}=0.02005$
+\end_inset
+
+, 
+\begin_inset Formula $V_{pp\pi}=-0.017848$
+\end_inset
+
+, 
+\begin_inset Formula $V_{pd\pi}=0.034711$
+\end_inset
+
+, 
+\begin_inset Formula $V_{dd\pi}=0.04694$
+\end_inset
+
+, 
+\begin_inset Formula $V_{dd\delta}=-0.062523$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\end_body
+\end_document
