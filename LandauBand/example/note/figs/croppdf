@@ -1,4 +1,0 @@
-for i in `ls *.pdf`
-    do 
-        pdfcrop $i $i
-    done
