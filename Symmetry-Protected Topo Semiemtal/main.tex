@@ -1,0 +1,89 @@
+\input{preface}
+\begin{document}
+
+\title{Topological States Protected by Discrete Symmetries in Crystals}% Force line breaks with \\
+
+\author{Kaifa Luo}
+\email{kfluo96@whu.edu.cn}
+%\affiliation{School of Physics and Technology, Wuhan University, Wuhan 430072, China}
+\date{\today}
+
+\begin{abstract}
+Symmetry is a fundamental and profound concept in modern physics. As a rapidly developing field, topological states in solids have attracted much attention of both experimental and theoretical physicists due to their fancy properties and potential applications. In this note, we concentrate on the consequences led by various symmetries in crystals, or more specifically, these consequences of interest are exactly the symmetry protected topological states in the single electron picture. we briefly review some significant results of symmetry operations, and then the physical conseqences constrained by each symmetry or their compositions are discussed.
+\end{abstract}
+
+\maketitle
+
+\tableofcontents
+%%========================MAIN TEXT================================
+
+%%%%%%%%%%%%%%%%%%%%
+\section{A Little Bit of Discrete Symmetries in Crystals}
+
+\subsection{Local Symmetries}
+In the context of particle physics, namely, particles in vaccum, symmetries can be didived as local and global, or spacatime and gauge.
+
+\subsubsection{Time-reversal $\mathcal{T}$}
+Time-reversal symmetry is defined as
+	\begin{equation}\begin{aligned}
+	\mathcal{T}\hat{\bm{r}}\mathcal{T}^{-1}=\hat{\bm{r}},~
+	\mathcal{T}\hat{\bm{p}}\mathcal{T}^{-1}=\hat{\bm{p}},
+	\end{aligned}\end{equation}
+and when a system is time-reversal invariant, we mean that
+	\begin{equation}
+	\mathcal{T}\hat{H}(\hat{\bm{r}},\hat{\bm{p}})\mathcal{T}^{-1}=\hat{H}(\hat{\bm{r}},-\hat{\bm{p}}).
+	\end{equation}
+
+Then, the canonical commutation relation $[\hat{\bm{r}},\hat{\bm{p}}]=i\hbar$ under time-reversal requires that
+	\begin{equation}\begin{aligned}
+	\mathcal{T}[\hat{\bm{r}},\hat{\bm{p}}]\mathcal{T}^{-1}
+	&=\mathcal{T}(\hat{\bm{r}}\hat{\bm{p}}-\hat{\bm{p}}\hat{\bm{r}})\mathcal{T}^{-1}
+	=\mathcal{T}(\hat{\bm{r}}\hat{\bm{p}}-\hat{\bm{p}}\hat{\bm{r}})\mathcal{T}^{-1}\\
+	&=-\hat{\bm{r}}\hat{\bm{p}}+\hat{\bm{p}}\hat{\bm{r}}=-[\hat{\bm{r}},\hat{\bm{p}}]=-i\hbar,
+	\end{aligned}\end{equation}
+that is to say, time-reversal operator is commutative with imaginary unit, $[\mathcal{T},i]=0$. Due to the Wigner's theorem, any physical operator in Hilbert space must be either unitart or anti-unitary, $\mathcal{T}$ have to be a anti-unitary operater satifying $\mathcal{T}=U\mathcal{K}$, where $U$ is an unitary operator and $\mathcal{K}$ is the complex conjugate operator.
+
+
+\subsubsection{Particle-hole $\mathcal{C}$}
+\subsubsection{Chiral $\mathcal{S}$}
+
+\subsection{Point Group Symmetries}
+\subsubsection{Discrete Translation $T$}
+\subsubsection{Space Inversion $\mathcal{P}$}
+\subsubsection{Mirror Reflection $\mathcal{M}$}
+\subsubsection{Rotation $\mathcal{C}_{n}$}
+
+\subsection{Non-symmorphic Symmetries}
+\subsubsection{Screw Axes and Glide Planes}
+\subsubsection{Bands Sticking Together Effect}
+
+\section{Symmetry Protected Topological Insulators}
+\subsection{Dirac Equation and the Invariants}
+\subsection{$\mathcal{T}/\mathcal{S}$-invariant}
+\subsection{Screw-invariant}
+\subsection{Quantized Polarizations}
+
+\section{Symmetry Protected Topological Semimetals}
+\subsection{Nodal Point Semimetal}
+\subsubsection{Dirac and Weyl Semimetal}
+\subsubsection{Unconventional Fermions in Crystals}
+
+\subsection{Nodal Line Semimetals}
+\subsubsection{$\mathcal{T}+\mathcal{P}$-invariant}
+\subsubsection{$\mathcal{M}$-invariant}
+\subsubsection{Screw-invariant}
+
+\subsection{Nodal Surface Semimetals}
+\subsubsection{$\mathcal{T}+\mathcal{P}+\mathcal{M}$-invariant}
+
+\section{Conclusions and Outlooks}
+
+
+%%%%%%%%%%%%%%%
+%\bibliography{refs}
+%\bibliographystyle{apsrev4-1}
+
+
+\end{document}
+%
+% ****** End of file apssamp.tex ******

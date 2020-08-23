@@ -1,0 +1,33 @@
+\contentsline {title}{Discrete Symmetries in Crystals and Their Consequences}{1}{section*.2}
+\contentsline {abstract}{Abstract}{1}{section*.1}
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{section*.3}
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}A Little Bit of Discrete Symmetries in Crystals}{1}{section*.4}
+\contentsline {subsection}{\numberline {A}Local Symmetries}{1}{section*.5}
+\contentsline {subsubsection}{\numberline {1}Time-reversal $\mathcal {T}$}{1}{section*.6}
+\contentsline {subsubsection}{\numberline {2}Particle-hole $\mathcal {C}$}{2}{section*.7}
+\contentsline {subsubsection}{\numberline {3}Chiral $\mathcal {S}$}{2}{section*.8}
+\contentsline {subsubsection}{\numberline {4}$SU(2)$ of Single Electron}{2}{section*.9}
+\contentsline {subsection}{\numberline {B}Point Group Symmetries}{2}{section*.10}
+\contentsline {subsubsection}{\numberline {1}Discrete Translation $T$}{2}{section*.11}
+\contentsline {subsubsection}{\numberline {2}Space Inversion $\mathcal {P}$}{2}{section*.12}
+\contentsline {subsubsection}{\numberline {3}Mirror Reflection $\mathcal {M}$}{2}{section*.13}
+\contentsline {subsubsection}{\numberline {4}Rotation $\mathcal {C}_{n}$}{2}{section*.14}
+\contentsline {subsection}{\numberline {C}Non-symmorphic Symmetries}{2}{section*.15}
+\contentsline {subsubsection}{\numberline {1}Screw Axes and Glide Planes}{2}{section*.16}
+\contentsline {subsubsection}{\numberline {2}Bands Sticking Together Effect}{2}{section*.17}
+\contentsline {section}{\numberline {II}Symmetry Protected Topological Insulators}{2}{section*.18}
+\contentsline {subsection}{\numberline {A}Dirac Equation and the Invariants}{2}{section*.19}
+\contentsline {subsection}{\numberline {B}$\mathcal {T}/\mathcal {S}$-invariant}{2}{section*.20}
+\contentsline {section}{\numberline {III}Symmetry Protected Topological Semimetals}{2}{section*.21}
+\contentsline {subsection}{\numberline {A}Semimetals with Higher Degenerate Points}{2}{section*.22}
+\contentsline {subsubsection}{\numberline {1}Dirac Semimetal}{2}{section*.23}
+\contentsline {subsubsection}{\numberline {2}Unconventional Fermions}{2}{section*.24}
+\contentsline {subsection}{\numberline {B}Nodal Line Semimetals}{2}{section*.25}
+\contentsline {subsubsection}{\numberline {1}$\mathcal {T}+\mathcal {P}$-invariant}{2}{section*.26}
+\contentsline {subsubsection}{\numberline {2}$\mathcal {M}$-invariant}{2}{section*.27}
+\contentsline {subsubsection}{\numberline {3}Screw-invariant}{2}{section*.28}
+\contentsline {subsection}{\numberline {C}Nodal Surface Semimetals}{2}{section*.29}
+\contentsline {subsubsection}{\numberline {1}$\mathcal {T}+\mathcal {P}+\mathcal {M}$-invariant}{2}{section*.30}
+\contentsline {section}{\numberline {IV}Conclusions and Outlooks}{2}{section*.31}
