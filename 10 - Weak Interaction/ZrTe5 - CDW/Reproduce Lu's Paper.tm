@@ -25,6 +25,15 @@
     V<rsub|q>
   </equation>
 
+  and
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<wide|H|^><rsub|e-ph,L>=>|<cell|<big|sum><rsub|\<b-k\><rsub|>>\<Delta\><rsub|L><wide|C|^>
+    <rsup|\<dagger\>><rsub|\<b-k\>+<frac|q<rsub|z>|2><with|font-series|bold|e><rsub|z>><wide|C|^><rsub|\<b-k\>-<frac|q<rsub|z>|2><with|font-series|bold|e><rsub|z>>+h.c.>|<cell|,>>|<row|<cell|\<Delta\><rsub|L>=>|<cell|g<rsub|L><sqrt|<frac|2N<rsub|ion>\<hbar\>|M
+    v<rsub|s,L>q<rsub|z>>><frac|-Z e<rsup|2>|\<epsilon\><around*|(|q<rsub|z><rsup|2>+\<kappa\><rsup|2>|)>>q<rsub|z><around*|\<langle\>|<wide|b|^><rsub|L,q<rsub|z>>|\<rangle\>>>|<cell|>>|<row|<cell|\<rightarrow\><around*|\<langle\>|<wide|b|^><rsub|L,q<rsub|z>>|\<rangle\>>=>|<cell|<around*|[|g<rsub|L><sqrt|<frac|2N<rsub|ion>\<hbar\>|M
+    v<rsub|s,L>q<rsub|z>>><frac|-Z e<rsup|2>|\<epsilon\><around*|(|q<rsub|z><rsup|2>+\<kappa\><rsup|2>|)>>q<rsub|z>|]><rsup|-1>\<Delta\><rsub|L>>|<cell|.>>>>
+  </eqnarray*>
+
   The mean-field Hamiltonian reads,
 
   <\equation>
@@ -37,7 +46,17 @@
   Then we will obtain the mean-field Hamiltonian for phonon,
 
   <\eqnarray*>
-    <tformat|<cwith|2|2|2|2|cell-halign|l>|<table|<row|<cell|<wide|H|^><rsub|ph>=>|<cell|<big|sum><rsub|q<rsub|z>>\<hbar\>\<omega\><rsub|L,q<rsub|z>><wide|b|^><rsub|q<rsub|z>><rsup|\<dagger\>><wide|b|^><rsub|q<rsub|z>>\<longrightarrow\>2\<hbar\>\<omega\><rsub|L,2k<rsub|F>><around*|\<langle\>|<wide|b|^><rsub|2k<rsub|F>>|\<rangle\>><rsup|2>>|<cell|<eq-number>>>|<row|<cell|=>|<cell|<frac|\<hbar\>\<omega\><rsub|L,2k<rsub|F>><around*|\||\<Delta\><rsub|L>|\|><rsup|2>|2<around*|\||\<alpha\><rsub|2k<rsub|F>><rsup|>|\|><rsup|2>>>|<cell|>>>>
+    <tformat|<cwith|2|2|2|2|cell-halign|l>|<cwith|3|3|2|2|cell-halign|l>|<cwith|4|4|2|2|cell-halign|l>|<table|<row|<cell|<wide|H|^><rsub|ph>=>|<cell|<big|sum><rsub|q<rsub|z>>\<hbar\>\<omega\><rsub|L,q<rsub|z>><wide|b|^><rsub|q<rsub|z>><rsup|\<dagger\>><wide|b|^><rsub|q<rsub|z>>\<longrightarrow\>2\<hbar\>\<omega\><rsub|L,2k<rsub|F>><around*|\<langle\>|<wide|b|^><rsub|2k<rsub|F>>|\<rangle\>><rsup|2>>|<cell|<eq-number>>>|<row|<cell|=>|<cell|<frac|\<hbar\>\<omega\><rsub|L,2k<rsub|F>><around*|\||\<Delta\><rsub|L>|\|><rsup|2>|2<around*|\||\<alpha\><rsub|2k<rsub|F>><rsup|>|\|><rsup|2>>>|<cell|>>|<row|<cell|=>|<cell|<around*|[|<frac|g<rsub|L><rsup|2>N<rsub|ion>Z<rsup|2>
+    e<rsup|4>|M v<rsub|s,L><rsup|2>\<epsilon\><rsup|2>><frac|1|<around*|(|q<rsub|z><rsup|2>+\<kappa\><rsup|2>|)><rsup|2>>|]><rsup|-1>\<Delta\><rsub|L><rsup|2>>|<cell|>>|<row|<cell|\<equiv\>>|<cell|<around*|[|<frac|g<rsub|L0>|<around*|(|q<rsub|z><rsup|2>+\<kappa\><rsup|2>|)><rsup|2>>|]><rsup|-1>\<Delta\><rsub|L><rsup|2>>|<cell|>>>>
+  </eqnarray*>
+
+  now we have the total Hamiltonian for electron-LA phonon system
+
+  <\eqnarray*>
+    <tformat|<cwith|2|2|2|2|cell-halign|l>|<table|<row|<cell|<with|font|cal|H><rsub|D
+    W,L>>|<cell|<around*|(|<tabular*|<tformat|<cwith|1|2|1|2|cell-halign|c>|<cwith|1|2|1|2|cell-halign|c>|<cwith|1|2|1|2|cell-halign|c>|<cwith|2|2|2|2|cell-halign|c>|<cwith|2|2|2|2|cell-halign|c>|<cwith|2|2|2|2|cell-halign|c>|<cwith|2|2|2|2|cell-halign|c>|<cwith|2|2|2|2|cell-halign|c>|<cwith|2|2|2|2|cell-halign|c>|<table|<row|<cell|<sqrt|\<hbar\><rsup|2>v<rsub|z><rsup|2><around*|(|k<rsub|z>+<frac|q|2>|)><rsup|2>+m<rsub|0><rsup|2>>>|<cell|<around*|\||\<Delta\><rsub|L>|\|>e<rsup|i\<phi\>>>>|<row|<cell|\<dagger\>>|<cell|<sqrt|\<hbar\><rsup|2>v<rsub|z><rsup|2><around*|(|k<rsub|z>-<frac|q|2>|)><rsup|2>+m<rsub|0><rsup|2>>>>>>>|)>+<around*|[|<frac|g<rsub|L0>|<around*|(|q<rsub|z><rsup|2>+\<kappa\><rsup|2>|)><rsup|2>>|]><rsup|-1><around*|\||\<Delta\><rsub|L>|\|><rsup|2>>|<cell|,>>|<row|<cell|g<rsub|L0>=>|<cell|<frac|g<rsub|L><rsup|2>N<rsub|ion>Z<rsup|2>
+    e<rsup|4>|M v<rsub|s,L><rsup|2>\<epsilon\><rsup|2>>\<rightarrow\>537
+    eV/nm>|<cell|.>>>>
   </eqnarray*>
 
   <subsubsection|Gap Equation and Ground-state Energy>
@@ -100,6 +119,49 @@
   </eqnarray*>
 
   <subsubsection|Model Parameter and Reproduction>
+
+  \;
+
+  Pseudo-code:
+
+  <\algorithm>
+    <math|><math|n<rsub|0>,\<epsilon\><rsub|r>,g<rsub|L0>,a>;
+    <math|\<hbar\>,\<epsilon\><rsub|0>,e>;
+    <math|M<rsub|0>,M<rsub|\<perp\>>,M<rsub|z>,v<rsub|z>>
+
+    (<math|B,\<eta\>,numKz>)
+
+    <hrule>
+
+    <math|b z=<frac|2\<pi\>|a>>; <math|L<rsub|z>=a\<times\>numKz>;
+    <math|l<rsub|B>=<sqrt|<frac|\<hbar\>|e B>>>;
+    <math|k<rsub|F>=2\<pi\><rsup|2>l<rsub|B><rsup|2>n<rsub|0>>
+
+    <math|k<rsub|z>list=List<around*|(|-k<rsub|F>,k<rsub|F>,numKz|)>>
+
+    <math|m<rsub|0>=M<rsub|0>+<frac|M<rsub|\<perp\>>|l<rsub|B><rsup|2>>+M<rsub|z>k<rsub|z><rsup|2>>;
+
+    <\math>
+      E<rsub|k<rsub|z>><rsup|<around*|(|0|)>>=<sqrt|m<rsub|0><rsup|2>+\<hbar\><rsup|2>v<rsub|z><rsup|2>k<rsub|z><rsup|2>>
+    </math>
+
+    <math|\<mu\>=E<rsub|k<rsub|z>=k<rsub|F>><rsup|<around*|(|0|)>>>;
+    <math|v<rsub|F>=<frac|m<rsub|0><around*|(|2M<rsub|z>k<rsub|z>|)>+\<hbar\><rsup|2>v<rsub|z><rsup|2>k<rsub|z>|<rsub|E<rsub|k<rsub|z>><rsup|<around*|(|0|)>>>><around*|\||<rsub|k<rsub|z>=k<rsub|F>>|\<nobracket\>>>
+
+    <math|\<kappa\>=<sqrt|<frac|e<rsup|3>B|4\<pi\><rsup|2>\<epsilon\><rsub|0>\<epsilon\><rsub|r>\<hbar\><rsup|2>v<rsub|F>
+    >>>
+
+    <math|<around*|\||\<Delta\><rsub|L>|\|>=<around*|\||<around*|(|\<hbar\>v<rsub|F>k<rsub|F>|)>csch<around*|[|<frac|4\<pi\><rsup|2>\<hbar\><rsup|2>v<rsub|F><around*|(|<around*|(|2k<rsub|F><rsup|>|)><rsup|2>+\<kappa\><rsup|2>|)><rsup|2>|e
+    B g<rsub|L0>>|]>|\|>>
+
+    \;
+
+    <math|E<rsub|g><around*|(|k<rsub|z>|)>=-<frac|1|2\<pi\>l<rsub|B><rsup|2>L<rsub|z>><sqrt|<around*|(|E<rsub|k<rsub|z>><rsup|<around*|(|0|)>>-\<mu\>|)><rsup|2>+<around*|\||\<Delta\><rsub|L>|\|><rsup|2>>>;
+    <math|E<rsub|g>=<big|int><rsub|-k<rsub|F>><rsup|+k<rsub|F>>E<rsub|g><around*|(|k<rsub|z>|)>d
+    k<rsub|z>>
+  </algorithm>
+
+  \;
 
   <\big-table|<tabular|<tformat|<table|<row|<cell|<block*|<tformat|<table|<row|<cell|Dirac>|<cell|<math|v<rsub|x>>>|<cell|<math|v<rsub|y>>>|<cell|<math|v<rsub|z>>>|<cell|<math|M<rsub|0>>>|<cell|<math|M<rsub|1>>>|<cell|<math|M<rsub|z>>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|Material>|<cell|<math|\<varepsilon\><rsub|r>>>|<cell|<math|n<rsub|0>>>|<cell|<math|a>>|<cell|<math|N<rsub|ion>>>|<cell|<math|M>>|<cell|<math|Z>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|Constant>|<cell|<math|e>>|<cell|<math|\<epsilon\><rsub|0>>>|<cell|<math|\<hbar\>>>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>>>>>>
     Model parameters of ZrTe5.
