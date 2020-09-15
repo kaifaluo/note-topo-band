@@ -7,6 +7,7 @@
 - [ ] Laughlin's argument
 - [ ] TKNN formula
 - [ ] Synthetic magnetic field
+- [ ] Haldane's QAHE Model
 
 ## Spin-Orbit Coupling
 
@@ -14,6 +15,7 @@
 - [ ] Atomic SOC as a relativistic effect
 - [ ] Example: SOC in Graphene
 - [ ] Synthetic SOC
+- [ ] Band Inversion by SOC
 
 ## Effective Hamiltonian
 
@@ -42,21 +44,45 @@
 - [ ] From k-dot-p model
 - [ ] Analytical method
 
-
-
 ## Wilson Loop
 
 
 
+## Topological Superconductor
 
+
+
+## Classification of Topological Free Fermion
+
+### Intrinsic Symmetries
+
+### Ten-fold Way
+
+### Spatial Symmetries
+
+- [ ] symmorphic
+- [ ] non-symmorphic
+- [ ] TCI
 
 ## TopoBand by Engineering
 
 ### Periodic Modulation
 
-
+- [ ] Floquet Topological Insulator
+- [ ] Floquet Weyl Semimetal
 
 ### Strain
+
+- [ ] Symmetry breaking
+
+### Disorder
+
+- [ ] Anderson Localization
+- [ ] Topological Anderson Insulator
+
+
+
+## Correlation in Mean-Field Level
 
 
 
@@ -64,8 +90,10 @@
 
 ### Landau Quantization
 
-### Electric Polarization
+### Berry Phase and Electric Polarization
 
 ### Floquet Theorem
 
 ### Surface Green Function
+
+### Hartree-Fock Theory
