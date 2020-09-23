@@ -1,5 +1,7 @@
 # TopoBands
-> This project is under construction, and updated from time to time.
+> This project is under construction, and updated from time to time. 
+>
+> The goal is to demonstrate basic but significant physical results within the framework of topological band theory by toy models and practical code implementations. A good way to understand is to (re-)create.
 
 ## Topology in IQHE
 
